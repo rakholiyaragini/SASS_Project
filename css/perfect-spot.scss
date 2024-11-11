@@ -1,0 +1,44 @@
+$background-color: #FFF0E9;
+$sans-setif-font:'lora';
+$open-sans-font: 'Open Sans';
+$serif-font:'Mr De Haviland';
+
+.perfect-spot{
+    padding: 140px 0;
+    background-color: $background-color;
+    position: relative;
+}
+.read-more-btn-2{
+    width: 151px;
+    padding: 20px 32px 20px 33px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid black;
+    font-family: $open-sans-font; 
+    letter-spacing: 0.2px;
+    transition: all 0.3s;
+}
+.read-more-btn-2:hover{
+    background-color: #000;
+    color: white;
+ }
+.title span{
+    margin-bottom: 10px;
+    font-size: 55px;
+    font-family: $serif-font;
+}
+.title h2{
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: $sans-setif-font;
+    margin-bottom: 21px;
+}
+.perfect-spot p{
+    margin-bottom: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: $open-sans-font;
+    color: #777;
+}

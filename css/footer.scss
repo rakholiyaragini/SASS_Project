@@ -1,0 +1,41 @@
+$sans-setif-font:'lora';
+$open-sans-font: 'Open Sans';
+$serif-font:'Mr De Haviland';
+
+footer{
+    background-color: #000;
+    padding: 96px 0 42px;
+    color: #c1c1c1;
+}
+.footer-title{
+    font-family: $sans-setif-font;
+    color: #ffff;
+    font-size: 17px;
+    margin-bottom: 29px;
+    font-weight: 400;
+}
+.footer-logo{
+    margin-bottom: 25px;
+}
+.footer-content p{
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 22px;
+    line-height: 1.8;
+    color: #c1c1c1;
+}
+.footer-icons{
+    color: #c1c1c1;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+    ul li{
+        list-style: none;
+        display: inline-block;
+        width: 22px;
+    }
+}
+.mb-13 li{
+    margin-bottom: 13px;
+    font-size: 12px;
+}

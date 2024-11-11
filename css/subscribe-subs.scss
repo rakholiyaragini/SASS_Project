@@ -1,0 +1,33 @@
+$sans-setif-font:'lora';
+$open-sans-font: 'Open Sans';
+$serif-font:'Mr De Haviland';
+
+.subscribe{
+    background-image: url(../images/h2-background-img-2.jpg);
+    background-size: cover;
+    padding: 55px 165px 36px;
+}
+.subs{
+    padding: 35px 15px 0;
+    color: #fff;
+    text-align: center;
+
+    h3{
+        font-family: $sans-setif-font;
+        padding-bottom: 20px;
+        font-size: 30px;
+        font-weight: 300;
+    }
+}
+.subscribe{
+    form{
+        input{
+            padding: 17px 25px;
+            display: inline-block;
+            width: 800px;
+            color: #777;
+            font-size: 15px;
+            font-family: $open-sans-font;
+        }
+    }
+}

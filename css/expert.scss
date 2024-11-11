@@ -1,0 +1,40 @@
+$sans-setif-font:'lora';
+$open-sans-font: 'Open Sans';
+$serif-font:'Mr De Haviland';
+
+.title{
+    margin-bottom: 60px;
+}
+.experts{
+    background-image: url(../images/h2-background-team.jpg);
+    padding: 113px 0 61px;
+    background-color: #FFF0E9;
+}
+.team-img{
+    margin-left: 30px;
+    overflow: hidden;
+}
+.team-img:hover img{
+    scale: 1.2;
+    transition: all 0.3s;
+}
+.team-info{
+    margin-top: 30px;
+    text-align: center;
+
+    span{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;
+        font-family: $sans-setif-font;
+    }
+    h5{
+        font-family: $sans-setif-font;
+        font-size: 17px;
+        font-weight: 400;
+    }
+}
+.team-icon{
+    margin-left: 20px;
+    display: inline;
+}

@@ -1,0 +1,15 @@
+.title{
+    margin-bottom: 60px;
+}
+.gallery{
+    padding: 130px 0 120px;
+}
+.images{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.images:hover img{
+    scale: 1.2;
+    transition: all 0.3s;
+}
